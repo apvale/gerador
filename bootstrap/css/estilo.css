@@ -1,0 +1,114 @@
+
+body{
+	font-family: 'Monda', sans-serif;
+}
+
+header{
+
+	width: 940px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+.menu{
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0 auto;
+	height: 30px;
+}
+
+.menu ul li{
+
+	float: left;
+	margin-right: 35px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #00A8C6;
+}
+
+.menu ul li a:hover{
+	color: #8FBE00;
+
+}
+
+
+.sessaotitulo{
+	background-color: #8FBE00;
+	width: 100%;
+	height: 300px;
+	color: white;
+	display: table;
+}
+
+.sessaotitulo h2{
+	padding-top: 80px;
+	display: table;
+	font-size: 30px;
+	margin-left: 80px;
+}
+
+.sessao_documentos{
+
+	width: 940px;
+	height: 500px;
+	color: #00A8C6;
+	display: table;
+	margin: 70px auto 0 auto;
+}
+
+.sessao_documentos h2{
+
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.row{
+	width: 940px;
+	text-align: center;
+}
+
+.row img{
+
+	opacity: 0.3;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.row img:hover{
+
+	opacity: 1.0;
+	width: 156px;
+}
+
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #40C0CB;
+	color: white;
+	bottom: 0;
+}
+
+footer p{
+
+	font-size: 15px;
+	text-align: right;
+	padding-top: 40px;
+	margin-right: 100px;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste</title>
+	<script type="text/javascript" src="jsPDF/jspdf.js"></script>
+	<script type="text/javascript" src="jsPDF/libs/FileSaver.js/FileSaver.js"></script>
+</head>
+<body>
+		Teste<input type="text" id="texto">
+		<input type="text" id="nome">
+		<input type="text" id="idade">
+
+		
+		<button onclick="teste()">Save PDF</button>
+
+
+	<script type="text/javascript">
+		
+		
+		function teste(){
+				
+			var doc = new jsPDF();
+
+			doc.text(20, 20, document.getElementById("texto").value);
+			doc.setFontType("bold"); 
+			doc.addPage();
+
+			
+
+
+
+			doc.save('Test.pdf');
+
+		}
+	</script>
+
+</body>
+</html>
+
